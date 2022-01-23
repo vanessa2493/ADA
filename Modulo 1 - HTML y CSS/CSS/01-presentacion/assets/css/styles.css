@@ -1,0 +1,27 @@
+.titulo{
+    font-size: 120px;
+    font-family: 'Lobster', cursive;
+    font-weight: 800px;
+}
+
+.parrafo{
+    font-size: 48px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 600px;
+}
+.color1{
+    color: rgb(33, 185, 212);
+}
+
+.color2{
+    color: rgb(174, 0, 255);
+}
+
+.color3{
+    color: rgb(255, 0, 128);
+}
+
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: blanchedalmond;
+}

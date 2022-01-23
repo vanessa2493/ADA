@@ -1,0 +1,56 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+.card{
+    height: 500px;
+    width: 250px;
+    border: solid;
+    border-radius: 10px;
+    }
+
+
+.image{
+    
+    height: 100%; 
+     width: 100%;
+    object-fit:cover;
+    border-top-left-radius:  10px;
+    border-top-right-radius:  10px; 
+
+}
+
+.text{
+    padding: 10px 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(133, 128, 128);
+    text-align: justify;
+}
+
+.title{
+    font-weight:100;
+    margin-top: 0;
+}
+
+.content{
+    font-size: 10px;
+}
+
+.profileImage{
+    height: 20px;
+}
+
+.autor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autor> div{
+    display: flex;
+}
