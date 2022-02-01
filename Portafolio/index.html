@@ -11,6 +11,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e95e4898a5.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="bg-primary">
@@ -21,7 +40,7 @@
         <div class="nav-primary">
             <nav >
                 <ul class="d-flex justify-right align-center">
-                    <li><a  href="#hola" class="btn-header" >HOLA</a></li>
+                    <li><a  href="#presentacion" class="btn-header" >HOLA</a></li>
                     <li><a  href="#conocimientos" class="btn-header">CONOCIMIENTOS</a></li>
                     <li><a  href="#mis-proyectos" class="btn-header">PROYECTOS</a></li>
                     <li><a  href="#contacto" class="btn-primary">CONTACTO </a></li>
@@ -34,15 +53,20 @@
     <!-- Sección de presentación  -->
 
     <section id="presentacion" class="d-flex justify-center align-center">
-        <div  class="container d-flex justify-space-around align-center ">
+        <div  class="container d-flex justify-space-around align-center media-presentacion">
         
-            <div class="basis-50 ">
-                <h1 class="letters-primary"><div class="letters-secondary">Hola soy</div> Vanessa Neira</h1>
+            <div class="basis-50">
+                <h1 class="letters-primary">
+                    <div class="letters-secondary">
+                        Hola soy
+                    </div> 
+                    Vanessa Neira
+                </h1>
                 <p>Economista, Ambientalista y amante de los animales!</p>
-                <a href="" class="btn-primary">Lo que hago</a>
+                <a href="#mis-proyectos" class="btn-primary">Lo que hago</a>
             </div>
 
-            <span class="d-flex basis-50"><img class="image-proyectos" src="./images/Girl-Dog.png" alt=""></span>
+            <div class="d-flex basis-50"><img class="image-proyectos" src="./images/Girl-Dog.png" alt=""></div>
         </div>
     </section>
 
@@ -87,13 +111,13 @@
     <!-- QUOTE -->
 
     <section id="quote" class="d-flex justify-center align-center">
-        <div  class="container d-flex flow-column align-center">
+        <div  class="container d-flex flow-column align-center justify-center">
             <div class="d-flex justify-center align-center">
                 <div class="quote-mark"><i class="fas fa-quote-left fa-4x"></i></div>
-                <p class="quote-text">“No reniego de mi naturaleza, no reniego de mis elecciones, de todos modos he sido afortunada. Muchas veces en el dolor se encuentran los placeres más profundos, las verdades más complejas, la felicidad más certera. Tan absurdo y fugaz es nuestro paso por este mundo, que solo me deja tranquila el saber que he sido auténtica, que he logrado ser lo más parecida a mí misma”</p>
+                <p class="quote-text">TODOS TENEMOS LUZ Y OSCURIDAD EN NUESTRO INTERIOR. LO QUE IMPORTA ES QUÉ PARTE ELEGIMOS POTENCIAR</p>
                 <div class="quote-mark"><i class="fas fa-quote-right fa-4x"></i></div>
             </div>
-            <div>Frida Kahlo</div>        
+            <div >SIRIUS BLACK</div>        
         </div>
     </section>
 
@@ -106,39 +130,54 @@
             <h2 class="d-flex justify-center">Mis Proyectos</h2>
             <p class="d-flex justify-center">Estos son los proyectos en los que he trabajado:</p>
             <ul class=" d-flex align-center wrap justify-center">
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center"> Portafolio</div>
-                    <img class="image-proyectos" src="./images/Portfolio.png" alt="Portfolio">
+                
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion">
+                        <div class="proy-title-height d-flex align-center justify-center"> Portafolio</div>
+                        <img class="image-proyectos" src="./images/Portfolio.png" alt="Portfolio">
+                    </a>
                 </li>
 
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center">Generador de memes</div>
-                    <img class="image-proyectos" src="./images/meme-generatorpng.png" alt="Memes">
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion"> 
+                        <div class="proy-title-height d-flex align-center justify-center">Generador de memes</div>
+                        <img class="image-proyectos" src="./images/meme-generatorpng.png" alt="Memes">
+                    </a>
                 </li>
 
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center">Match 3</div>
-                    <img class="image-proyectos" src="./images/match3.png" alt="Match3">
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion">
+                        <div class="proy-title-height d-flex align-center justify-center">Match 3</div>
+                        <img class="image-proyectos" src="./images/match3.png" alt="Match3">
+                    </a>
                 </li>
 
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center">Controlador de gastos</div> 
-                    <img class="image-proyectos" src="./images/expenses.png" alt="Gastos">
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion">   
+                        <div class="proy-title-height d-flex align-center justify-center">Controlador de gastos</div> 
+                        <img class="image-proyectos" src="./images/expenses.png" alt="Gastos">
+                    </a> 
                 </li>
 
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center">Administrador de reuniones</div> 
-                    <img class="image-proyectos" src="./images/calendar.png" alt="reuniones">
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion">
+                        <div class="proy-title-height d-flex align-center justify-center">Administrador de reuniones</div> 
+                        <img class="image-proyectos" src="./images/calendar.png" alt="reuniones">
+                    </a>
                 </li>
 
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center">Todo App</div>
-                    <img class="image-proyectos" src="./images/todo-app.png" alt="TodoApp">
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion">
+                        <div class="proy-title-height d-flex align-center justify-center">Todo App</div>
+                        <img class="image-proyectos" src="./images/todo-app.png" alt="TodoApp">
+                    </a>
                 </li>
 
-                <li class="mid-card d-flex justify-space-around flow-column">
-                    <div class="proy-title-height d-flex align-center justify-center">Buscador de peliculas</div> 
-                    <img class="image-proyectos" src="./images/movie.png" alt="Peliculas">
+                <li>
+                    <a class="mid-card d-flex justify-space-around flow-column" href="#presentacion">
+                        <div class="proy-title-height d-flex align-center justify-center">Buscador de peliculas</div> 
+                        <img class="image-proyectos" src="./images/movie.png" alt="Peliculas">
+                    </a>
                 </li>
             </ul>
         </div>
@@ -155,32 +194,33 @@
                 <h2>Encuéntrame</h2>
                 <p>Si te parece interesante mi trabajo, me puedes contactar por estos medios:</p>
             
-                <ul>
+            
+                <ul> 
                     <li>
                         <a class="findme-list" href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
                             <i class="social-logo fab fa-twitter"></i>
-                            twitter
+                             twitter
                         </a>
                     </li>
 
                     <li>
                         <a class="findme-list" href="https://github.com/" target="_blank" rel="noopener noreferrer">
                             <i class="social-logo fab fa-github-alt"></i> 
-                            GitHub
+                             GitHub
                         </a>
                     </li>
 
                     <li>
                         <a class="findme-list" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                             <i class="social-logo fab fa-linkedin-in"></i> 
-                            LinkedIn
+                             LinkedIn
                         </a>
                     </li>
 
                     <li>
                         <a class="findme-list" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank" rel="noopener noreferrer">
                             <i class="social-logo fas fa-envelope"></i> 
-                            Gmail
+                             Gmail
                         </a>
                     </li>
                 </ul>
@@ -194,7 +234,7 @@
 
                 <form action="" method="" class="d-flex  flow-column justify-space-around">
 
-                    <div class="d-flex justify-space-between">
+                    <div class="apellido-media d-flex justify-space-between">
                         <div class="d-flex flow-column">
                             <!-- Nombre -->
                             <label for="">Nombre*</label> 
@@ -234,7 +274,7 @@
 
                     <div class="d-flex flow-column">
                         <label for="">Mensaje*</label> 
-                        <textarea class="form-style" name="Mensaje" cols="30" rows="10"></textarea>
+                        <textarea class="form-style form-message" name="Mensaje" ></textarea>
                     </div>
 
                     <div>
