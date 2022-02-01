@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 /* ------De etiqueta------ */
 
 a{
@@ -34,11 +35,11 @@ li{
     margin: 10px;
 }
 
-
 ul{
     padding-inline-start: 0px;
     margin: 0;
 }
+
 
 /* ------De clase------ */
 
@@ -99,8 +100,9 @@ ul{
 	outline: inherit;
     border-radius: 100px;
     background-color: #17909e;
-    margin: 5px 10px;
+    margin: 1.3rem 1rem;
     padding: 10px;
+    width: 7.5em;
 }
 
 .card{
@@ -143,7 +145,6 @@ ul{
     color: #c8bb48;
 }
 
-
 .footer-container{
     width: 75rem;
     height: 20rem;
@@ -157,7 +158,6 @@ ul{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-
 
 .footer-circle-social-logo a {
     border: solid #1a5678;
@@ -264,7 +264,6 @@ ul{
     padding-top: 2em;
     padding-bottom: 2em;
 }
-
 
 .screen-compu{
     padding: 100px 200px;
@@ -423,10 +422,6 @@ ul{
 
     .container{
         width: 40rem;
-    }
-
-    .btn-secondary{
-        margin-top: 1rem;
     }
 
     .expand{
