@@ -1,4 +1,8 @@
 
+/* ----- Vanessa Neira-----  */
+/* ----- CSS Styles-----  */
+
+
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -128,7 +132,6 @@ ul{
     width: 75rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /* display: block; */
 }
 
 .conocimientos-container{
@@ -393,7 +396,6 @@ ul{
 
     .container{
         width: 50rem;
-        /* display: block */
     }
 
     .form-message{
@@ -419,8 +421,31 @@ ul{
 
 @media (max-width: 850px) {
 
+    .container{
+        width: 40rem;
+    }
+
+    .btn-secondary{
+        margin-top: 1rem;
+    }
+
+    .expand{
+        width: 100%;
+    }
+
+    .footer-container{
+        height: 15rem;
+    }
+
+    .media-escribeme{
+        padding-top: 3.2rem;
+    }
+
     #contacto ul {
-        column-count: 2;
+        display:flex;
+        align-items: inherit;
+        /* esta sección esta siendo revisada por el profe */
+        /* column-count: 2; */
     }
     
     #contacto .container{
@@ -437,6 +462,10 @@ ul{
         width: 100%;
     }
 
+    #presentacion{
+        height: 50rem;
+    }
+
     #quote{
         padding: 2em 5em;
         font-size: 0.7em;
@@ -444,7 +473,20 @@ ul{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
+    .container{
+        width: 30rem;
+    }
+
+    #mis-proyectos p, #conocimientos p, #presentacion p{
+        text-align: center;
+    }
     
-    
+    #footer{
+        font-size: 1rem;
+    }
+
+    #presentacion{
+        height: 45rem;
+    }
 }
