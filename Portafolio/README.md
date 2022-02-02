@@ -1,5 +1,5 @@
 This project was created by Vanessa Neira
-Delivered on February 2022
+- Delivered on February 2022
 
 ## Project's Title
 
@@ -27,8 +27,8 @@ This project is still under development because in near future I'll be modifying
 4. Quote
 5. Projects --> Sección de proyectos
 6. Contact me --> Sección formulario de contacto
-    6.1. Find me --> sub-sección Encuéntrame
-    6.2. Write me --> sub-sección Escríbeme
+    -6.1. Find me --> sub-sección Encuéntrame
+    -6.2. Write me --> sub-sección Escríbeme
 7. Footer
 
 ### CSS
