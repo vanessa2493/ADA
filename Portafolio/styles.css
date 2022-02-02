@@ -119,6 +119,7 @@ ul{
 .card:hover{
     box-shadow: 0px 0px 15px 0px rgba(87,28,86,0.5);
     color: blueviolet;
+    transition: 1s;
 }
 
 .card-box li {
@@ -421,6 +422,7 @@ ul{
     
 }
 
+
 @media (max-width: 850px) {
 
     .container{
@@ -471,6 +473,7 @@ ul{
 
 }
 
+
 @media (max-width: 650px) {
     .container{
         width: 30rem;
@@ -487,4 +490,39 @@ ul{
     #presentacion{
         height: 45rem;
     }
+}
+
+
+@media (max-width: 490px) {
+
+    h1{
+        text-align: center;
+    }
+
+    .container{
+        width: 20rem;
+    }
+
+    .form-message{
+        height: 13em;
+        width: 20em;
+    }
+
+    .footer-letter{
+        display: none;
+    }
+
+    #conocimientos{
+        text-align: center;
+    }
+    
+    #contacto ul{
+        display: flex;
+        flex-flow: column;
+    }
+
+    #footer{
+        width: 100%;
+    }
+
 }
