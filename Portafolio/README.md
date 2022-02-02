@@ -1,4 +1,5 @@
-This project was created by Vanessa Neira
+This project was created by:
+### Vanessa Neira
 - Delivered on February 2022
 
 ## Project's Title
@@ -27,14 +28,14 @@ This project is still under development because in near future I'll be modifying
 4. Quote
 5. Projects --> Sección de proyectos
 6. Contact me --> Sección formulario de contacto
-    -6.1. Find me --> sub-sección Encuéntrame
-    -6.2. Write me --> sub-sección Escríbeme
+    - 6.1. Find me --> sub-sección Encuéntrame
+    - 6.2. Write me --> sub-sección Escríbeme
 7. Footer
 
 ### CSS
 
 1. Element --> De etiqueta
-2. .class --> De clase
+2. .Class --> De clase
 3. FLEX
 4. Id's
 5. Media Queries
@@ -44,7 +45,14 @@ Source for reference: https://www.w3schools.com/cssref/css_selectors.asp
 
 ## How to Install and Run the Project
 
-To run this project please download the folder "Portafolio", you will find the images folder, the index.html file, the styles.css file, and this README.md file. Open the index.html file in your preferred browser and navigate.
+To run this project please download the folder "Portafolio", you will find:
+
+- Images folder 
+- index.html file 
+- styles.css file 
+- README.md file
+
+Open the index.html file in your preferred browser and navigate.
 
 
 ## How to Use the Project
