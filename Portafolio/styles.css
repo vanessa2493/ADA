@@ -84,11 +84,13 @@ ul{
 
 .btn-header:hover{
     color: #38a48b;
+    transition-duration: 0.2s;
 }
 
 .btn-header:active{
     border-radius: 100px;
-    box-shadow: 0px 0px 15px 0px rgba(240, 235, 240, 0.5);  
+    box-shadow: 0px 0px 15px 0px rgba(240, 235, 240, 0.5); 
+    transition-duration: 1s; 
 }
 
 .btn-secondary{
@@ -143,6 +145,7 @@ ul{
 
 .findme-list:hover , .findme-list:hover .social-logo {
     color: #c8bb48;
+    transition-duration: 0.2s;
 }
 
 .footer-container{
